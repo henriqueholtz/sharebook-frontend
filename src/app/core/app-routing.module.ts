@@ -127,14 +127,6 @@ const routes: Routes = [
     path: 'contact-us',
     component: ContactUsComponent,
   },
-  {
-    path: 'politica-privacidade',
-    component: PrivacyPolicyComponent,
-  },
-  {
-    path: 'termos-de-uso',
-    component: TermsOfUseComponent,
-  },
   // otherwise redirect to home
   {
     path: '**',
