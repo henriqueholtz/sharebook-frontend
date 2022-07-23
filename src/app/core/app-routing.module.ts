@@ -18,13 +18,10 @@ import { ChangePasswordComponent } from '../components/change-password/change-pa
 import { ResetPasswordComponent } from '../components/reset-password/reset-password.component';
 import { ForgotPasswordComponent } from '../components/forgot-password/forgot-password.component';
 import { ParentAprovalComponent } from '../components/parent-aproval/parent-aproval.component';
-import { ContactUsComponent } from '../components/contact-us/contact-us.component';
 import { RequestedsComponent } from '../components/book/requesteds/requesteds.component';
 import { DonationsComponent } from '../components/book/donations/donations.component';
 import { AboutComponent } from '../components/about/about.component';
 import { DonatePageComponent } from '../components/book/donate-page/donate-page.component';
-import { PrivacyPolicyComponent } from '../components/privacy-policy/privacy-policy.component';
-import { TermsOfUseComponent } from '../components/terms-of-use/terms-of-use.component';
 
 const routes: Routes = [
   {
@@ -122,10 +119,6 @@ const routes: Routes = [
   {
     path: 'consentimento-dos-pais/:hashCode',
     component: ParentAprovalComponent,
-  },
-  {
-    path: 'contact-us',
-    component: ContactUsComponent,
   },
   // otherwise redirect to home
   {
